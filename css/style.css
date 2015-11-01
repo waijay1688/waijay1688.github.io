@@ -116,12 +116,24 @@ a.nav-logo{
 	
 }
 .note h1{
-	color:#FFF;
+	color:#FFFFFF;
 	font-size:2.5em;
 	font-weight:400;
 }
+
 .note h1 span{
 	font-weight:700;
+}
+.note h2{
+	color:#FFF000;
+	font-size:2em;
+	font-weight:300;
+}
+.note li
+{
+	color:#FFFFFF;
+	font-size:1.5em;
+	font-weight:300;
 }
 /*-- top-grids --*/
 .top-grids{
@@ -187,6 +199,10 @@ a.t-btn:hover{
 	font-size:2.5em;
 	color:#FFF;
 }
+.about-left-grid li{
+	font-size:1.5em;
+	color:#000000;
+}
 .about-left{
 	padding: 4.5em 0 0em 0;
 }
@@ -201,6 +217,9 @@ a.t-btn:hover{
 	font-size:2em;
 }
 .about-left-grid h2 span{
+	font-weight:700;
+}
+.about-left-grid p span{
 	font-weight:700;
 }
 .about-left-grid p{
@@ -242,7 +261,7 @@ a.t-btn:hover{
 }
 .about-right{
 	padding:0;
-	background:url(../images/about-pic.jpg) no-repeat 0px 0px;
+	background:url(../images/aboutme.jpg) no-repeat 0px 0px;
 	min-height:580px;
 }
 /*-- services --*/

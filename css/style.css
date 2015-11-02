@@ -125,9 +125,13 @@ a.nav-logo{
 	font-weight:700;
 }
 .note h2{
-	color:#FFF000;
+	color:#27ae60;
 	font-size:2em;
 	font-weight:300;
+}
+.note h2 span
+{
+	font-weight:1000;
 }
 .note li
 {
@@ -193,6 +197,8 @@ a.t-btn:hover{
 }
 /*-- about-us --*/
 .about{
+	margin: 0;
+    padding: 0;
 	background:url(../images/about-bg.jpg);
 }
 .about-left-grid h3{
@@ -260,6 +266,8 @@ a.t-btn:hover{
 	-ms-border-radius:1.5em;
 }
 .about-right{
+	width:40%;
+	float:right;
 	padding:0;
 	background:url(../images/aboutme.jpg) no-repeat 0px 0px;
 	min-height:580px;
